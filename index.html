@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo de Adivinha</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="before-scenario">
+        <div class="scenario">
+            <h1>Jogo de Adivinha: Nivel Genin</h1>
+        <div class="instruction">
+            <h2>
+                Instru&ccedil;&otilde;es do jogo
+            </h2>
+            <p>Tente adivinhar o n&uacute;mero que eu irei colocar!</p>
+            <p>Simples assim, aposto que n&atilde;o me vences!</p>
+        </div>
+    
+        <div class="before-game">
+            <div class="game">
+            <h3>Digite um n&uacute;mero de 0 &agrave; 10</h3>
+            <input type="text" id="numeroAdivinha" min="0" max="10" placeholder="N&atilde;o batota!...">
+            <div class="game-buttons">
+                <button onclick="Adivinhar()">&Eacute; esse o n&uacute;mero!</button>
+                <button id="recarregar">Queres continuar?</button>
+            </div>
+            <div class="lose">
+            <p id="output"></p>
+            </div>
+        </div>
+    </div>
+        </div>
+    </div>
+   
+    
+
+    
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
